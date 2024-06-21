@@ -4,16 +4,16 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/akhil/grpc-demo/proto"
+	pb "github.com/darshankapadiy19/go-grpc-demo/proto"
 	"google.golang.org/grpc"
 )
 
-//define the port
+// define the port
 const (
 	port = ":8080"
 )
 
-//this is the struct to be created, pb is imported upstairs
+// this is the struct to be created, pb is imported upstairs
 type helloServer struct {
 	pb.GreetServiceServer
 }

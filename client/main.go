@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	pb "github.com/akhil/grpc-demo/proto"
+	pb "github.com/darshankapadiy19/go-grpc-demo/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
